@@ -289,13 +289,13 @@ if circles is not None:
 
 
 # Display the processed image
-
+"""
 plt.subplot(131), plt.imshow(img, cmap='gray'), plt.title('Original Image')
 plt.subplot(132), plt.imshow(img_with_lines), plt.title('Central Line')
 plt.subplot(133), plt.imshow(img_with_hough_circles), plt.title('Caps')
 plt.show()
 print('Confirm selected region.')
-
+"""
 
 # ### 3.2 Apply the mask
 
